@@ -1,1 +1,1 @@
-alert('JS connected successfully')
+// alert('JS connected successfully')
