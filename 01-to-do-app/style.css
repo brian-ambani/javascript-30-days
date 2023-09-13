@@ -2,18 +2,20 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #fff;
+    background: #aeaaaa;
 }
 
 .container {
-    width: 80%;
     height: 100vh;
-    /* display: flex;
-    align-items: center; */
-    margin: 0 auto;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
 }
-header{
+header h1{
     margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -21,11 +23,10 @@ header{
     outline: none;
     border: none;
     padding: 0.9rem 1.2rem;
-    color: whitesmoke;
-    background: #000;
+    color: rgb(20, 18, 18);
+    background: #e4e0e0;
     width: 18rem;
     border-radius: 2rem;
-    text-transform: uppercase;
 }
 
 .btn-submit {
@@ -36,11 +37,15 @@ header{
     font-size: 1rem;
     background: green;
     margin-left: 3rem;
+    border: none;
+    font-weight: bold;
 
 }
 
 .btn-submit:hover{
+    cursor: pointer;
     background: #146909;
+    color: #000;
     transition: 0.4s ease;
 }
 
