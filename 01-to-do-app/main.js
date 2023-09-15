@@ -15,6 +15,15 @@ function addTodo(event){
     //prevent form from submitting
     event.preventDefault();
 
+    //Todo div
+    const todoDiv = document.createElement('div');
+    todoDiv.classList.add("todo");
 
-    console.log('Hello');
+    //create LI
+    const newTodo = document.createElement('li');
+    newTodo.innerText = 'This is a todo li';
+    newTodo.classList.add('todo-item');
+    todoDiv.appendChild(newTodo);
+
+    //Check Mark Button
 }
