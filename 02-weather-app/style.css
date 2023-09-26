@@ -52,3 +52,7 @@ body {
   height: 50px;
   cursor: pointer;
 }
+
+.search button img {
+  width: 30px;
+}
