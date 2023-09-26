@@ -32,7 +32,7 @@ const allMonths = [
   "December",
 ];
 
-date.innerHTML = today.getDate();
+date.innerHTML = (today.getDate() < 10 ? "0" : "") + today.getDate();
 day.innerHTML = weekDays[today.getDay()];
 month.innerHTML = allMonths[today.getMonth()];
 year.innerHTML = today.getFullYear();
