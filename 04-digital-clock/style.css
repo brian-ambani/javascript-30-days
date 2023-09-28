@@ -38,7 +38,20 @@
   height: 180px;
   background: #f41b75;
   border-radius: 5px;
-  page-orientation: absolute;
+  position: absolute;
   left: -50px;
   top: -50px;
+  z-index: -1;
+}
+
+.container::after {
+  content: "";
+  width: 180px;
+  height: 180px;
+  background: #419aff;
+  border-radius: 50%;
+  position: absolute;
+  right: -30px;
+  bottom: -50px;
+  z-index: -1;
 }
